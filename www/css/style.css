@@ -1,0 +1,9 @@
+#phones{
+	width: 100%;
+}
+
+#phones img{
+	width: 10%;
+	border: #000 medium solid;
+	margin: 5px;
+}
