@@ -7,63 +7,90 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
 <script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+        
+
 </head> 
 <body> 
 
 <div data-role="page" id="page">
 	<div data-role="header">
-		<h1>Page One</h1>
+		<h1>EE</h1>
 	</div>
 	<div data-role="content">	
+    
 		<div id="phones">
         <ul data-role="listview">
         
-			<a href="#page2"><img src="img/iphone5S_link.fw.png"></a>
-            <a href="#page3"><img src="img/iphone5c_link.fw.png"></a>
-			<a href="#page4"><img src="img/Alcatel idol S_link.fw.png"></a>
-            <a href="#page5"><img src="img/BBQ5_link.fw.png"></a>
-            <a href="#page6"><img src="img/BBZ10_link.fw.png"></a>
-            <a href="#page7"><img src="img/Doro612_link.fw.png"></a>
-            <a href="#page8"><img src="img/doro810_link.fw.png"></a>
-            <a href="#page9"><img src="img/ee_kestrel_link.fw.png"></a>
-            <a href="#page10"><img src="img/HTC_1_mini_link.fw.png"></a>
-            <a href="#page11"><img src="img/HTC_M8_link.fw.png"></a>
-            <a href="#page12"><img src="img/LG_G2.fw.png"></a>
-            <a href="#page13"><img src="img/moto_g_link.fw.png"></a>
-            <a href="#page14"><img src="img/lumia_520_link.fw.png"></a>
-            <a href="#page15"><img src="img/lumia_625_link.fw.png"></a>
-            <a href="#page16"><img src="img/lumia_1020_link..fw.png"></a>
-            <a href="#page17"><img src="img/lumia_1320_link.fw.png"></a>
-            <a href="#page18"><img src="img/Sam_gal_ace_3_link.fw.png"></a>
-            <a href="#page19"><img src="img/sam_gal_s4_mini_link.fw.png"></a>
-            <a href="#page20"><img src="img/sam_gal_s4_link.fw.png"></a>
-            <a href="#page21"><img src="img/sam_gal_s5_link.fw.png"></a>
-            <a href="#page22"><img src="img/sam_gal_note_3_link.fw.png"></a>
-            <a href="#page23"><img src="img/sony_m2.fw.png"></a>
-            <a href="#page24"><img src="img/sony_z1_compact_link.fw.png"></a>
-            <a href="#page25"><img src="img/sony_z2.fw.png"></a>
+			<a href="#5S"><img src="img/iphone5S_link.fw.png"></a>
+            <a href="#5C"><img src="img/iphone5c_link.fw.png"></a>
+			<a href="#Alcatel"><img src="img/Alcatel idol S_link.fw.png"></a>
+            <a href="#BBQ5"><img src="img/BBQ5_link.fw.png"></a>
+            <a href="#BBZ10"><img src="img/BBZ10_link.fw.png"></a>
+            <a href="#D612"><img src="img/Doro612_link.fw.png"></a>
+            <a href="#D810"><img src="img/doro810_link.fw.png"></a>
+            <a href="#Kestrel"><img src="img/ee_kestrel_link.fw.png"></a>
+            <a href="#HTCmini"><img src="img/HTC_1_mini_link.fw.png"></a>
+            <a href="#HTCM8"><img src="img/HTC_M8_link.fw.png"></a>
+            <a href="#LGG2"><img src="img/LG_G2.fw.png"></a>
+            <a href="#MotoG"><img src="img/moto_g_link.fw.png"></a>
+            <a href="#L520"><img src="img/lumia_520_link.fw.png"></a>
+            <a href="#L625"><img src="img/lumia_625_link.fw.png"></a>
+            <a href="#L1020"><img src="img/lumia_1020_link..fw.png"></a>
+            <a href="#L1320"><img src="img/lumia_1320_link.fw.png"></a>
+            <a href="#Ace3"><img src="img/Sam_gal_ace_3_link.fw.png"></a>
+            <a href="#S4mini"><img src="img/sam_gal_s4_mini_link.fw.png"></a>
+            <a href="#S4"><img src="img/sam_gal_s4_link.fw.png"></a>
+            <a href="#S5"><img src="img/sam_gal_s5_link.fw.png"></a>
+            <a href="#Note3"><img src="img/sam_gal_note_3_link.fw.png"></a>
+            <a href="#M2"><img src="img/sony_m2.fw.png"></a>
+            <a href="#Z1compact"><img src="img/sony_z1_compact_link.fw.png"></a>
+            <a href="#Z2"><img src="img/sony_z2.fw.png"></a>
 		</ul>
         </div>		
 	</div>
-	<div data-role="footer">
-		<h4>Page Footer</h4>
-	</div>
+
 </div>
 
-<div data-role="page" id="page2">
+<div data-role="page" id="5S">
 	<div data-role="header">
+        <a href="#page" data-transition="flip">Back</a>
 		<h1>Apple IPhone 5S</h1>
 	</div>
 	<div data-role="content">	
-		<img src="img/iphone5S.fw.png">		
-	</div>
+		<img src="img/iphone5S.fw.png">		<div data-role="navbar">
+        <ul>
+        <li><a href="#" class="ui-btn-active" data-href="tab1">16GB</a></li>
+        <li><a href="#" data-href="tab2">32GB</a></li>
+        <li><a href="#" data-href="tab3">64GB</a></li>
+        </ul> 
+        </div>
+        <div id="tab1" class="tab-content">
+        <div id="payg"><h2>PAYG</h2></div>
+        <div id="paym"><h2>PAYM</h2>
+        <img src="img/priceplan/5S.fw.png">
+        </div>
+        </div>
+        <div id="tab2" class="tab-content">
+        Tab2 content
+        </div>
+        <div id="tab3" class="tab-content">
+        Tab3 content
+        </div>
+        
+               
+
+</div>
 	<div data-role="footer">
 		<h4>Page Footer</h4>
 	</div>
+	</div>
+
 </div>
 
-<div data-role="page" id="page3">
+<div data-role="page" id="5C">
 	<div data-role="header">
+    <a href="#page" data-transition="flip">Back</a>
 		<h1>Apple IPhone 5c</h1>
 	</div>
 	<div data-role="content">	
@@ -86,5 +113,6 @@
 	</div>
 </div>
 
+<script src="js/javascript.js"></script>
 </body>
 </html>
