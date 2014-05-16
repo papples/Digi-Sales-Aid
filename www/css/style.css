@@ -9,19 +9,13 @@
 	margin: 5px;
 }
 
-#footer{
-	position: fixed;
-
+.ui-content img{
+	width: 40%;
+	float:left;
 }
 
 .ui-header{
 	background: #099;
-}
-
-.ui-footer{
-	background: #099;
-	position: fixed;
-	bottom: -auto;
 }
 
 .tab-content{
@@ -33,23 +27,34 @@
 }
 
 #payg{
+	margin-top: 10px;
 	float: left;
 	clear: right;
 	width: 28%;
-	height: 100px;
+	height: auto;
 	border:#000 solid medium;
 	text-align: center;
+	background:#FFF;
 }
 
 #paym{
+	margin-top: 10px;
 	float:right;
 	width: 70%;
 	height: auto;
 	border: #000 solid medium;
 	text-align: center;
+	background: #FFF;
 }
 
 #paym img {
 	width: 100%;
 	text-align: right;
+}
+
+#description{
+	margin-top: 30px;
+	margin-right: 100px;
+	float: right;
+	clear: left;
 }
